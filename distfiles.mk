@@ -64,6 +64,10 @@ DISTFILES =	.gitignore \
 	config/dragontech/wd-100.xml \
 	config/duwi/ZWES1000.xml \
 	config/duwi/ZWESJ300.xml \
+	config/ecolink/doorwindow.xml \
+	config/ecolink/firefighter.xml \
+	config/ecolink/motion.xml \
+	config/ecolink/sensor.xml \
 	config/enerwave/zwn-sc7.xml \
 	config/eurotronic/eur_cometz.xml \
 	config/eurotronic/eur_stellaz.xml \

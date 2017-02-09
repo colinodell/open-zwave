@@ -204,9 +204,14 @@
 	<Manufacturer id="0012" name="E Housekeeper">
 		<Product type="0001" id="0001" name="Switchkeeper Plug-in Appliance Module"/>
 	</Manufacturer>
-        <Manufacturer id="014a" name="Ecolink">
-                <Product type="0001" id="0003" name="Garage Door Sensor"/>
-        </Manufacturer>
+	<Manufacturer id="014a" name="Ecolink">
+		<Product type="0001" id="0001" name="Motion Sensor" config="ecolink/sensor.xml"/>
+		<Product type="0001" id="0002" name="Door/Window Sensor" config="ecolink/doorwindow.xml"/>
+		<Product type="0001" id="0003" name="Tilt Sensor" config="ecolink/sensor.xml"/>
+		<Product type="0004" id="0001" name="Motion Detector" config="ecolink/motion.xml"/>
+		<Product type="0004" id="0003" name="Garage Door Tilt Sensor" config="ecolink/sensor.xml"/>
+		<Product type="0005" id="000f" name="FireFighter" config="ecolink/firefighter.xml"/>
+	</Manufacturer>
 	<Manufacturer id="0087" name="Eka Systems">
 	</Manufacturer>
 	<Manufacturer id="0033" name="Electronic Solutions Inc">
